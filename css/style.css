@@ -35,6 +35,10 @@ body {
 }
 
 
+.header-navigation a{
+  text-decoration: none;
+  color: var(--dark-color);
+}
 
 .header-item {
   font-size: 14px;
@@ -126,7 +130,7 @@ color:var(--dark-color);
     background-color:var(--background-team) ;
 }
 
-.tem-title{
+.team-title{
 font-size: 36px;
 font-weight: 700;
 line-height: 42px;
