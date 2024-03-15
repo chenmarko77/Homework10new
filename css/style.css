@@ -8,6 +8,7 @@
   --text-color: #757575;
   --background-team: #F5F4FA;
   --footer-contacts: #FFFFFF99;
+  --item-border: #eeeeee;
 
 
 }
@@ -16,6 +17,9 @@ body {
   font-family: "Roboto";
 }
 
+li {
+  list-style-type: none;
+}
 
 .logo {
   font-family: Raleway;
@@ -62,11 +66,6 @@ a:hover {
   color: var(--button-color);
 }
 
-
-
-li {
-  list-style-type: none;
-}
 
 .main-call_to_action {
   background-color: var(--footer-color);
@@ -164,6 +163,10 @@ top: 1632px;
 left: 215px;
 border-radius: 0px, 0px, 4px, 4px;
 background-color: var(--background-general);
+}
+
+footer a{
+  text-decoration: none;
 }
 
 footer{
